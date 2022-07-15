@@ -1,0 +1,89 @@
+.bigDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 8px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.yellow {
+    height: 8px;
+    width: 30%;
+    background: #FFCC00;
+}
+.purple {
+    height: 8px;
+    width: 20%;
+    background: #5856D5;
+}
+.blue {
+    height: 8px;
+    width: 16%;
+    background: #2196F3;
+}
+.grey {
+    height: 8px;
+    width: 10%;
+    background: #A0B0B9;
+}
+
+.errorContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 12%;
+    margin-right: 20%;
+}
+.yellowContainer {
+    display: flex;
+    flex-direction: row;
+}
+.yellowSquare {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #FFCC00;
+    margin-top: 10px;
+}
+.purpleContainer {
+    display: flex;
+    flex-direction: row;
+}
+.purpleSquare {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #5856D5;
+    margin-top: 10px;
+}
+.blueContainer {
+    display: flex;
+    flex-direction: row;
+}
+.blueSquare {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #2196F3;
+    margin-top: 10px;
+}
+.greyContainer {
+    display: flex;
+    flex-direction: row;
+}
+.greySquare {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #A0B0B9;
+    margin-top: 10px;
+}
+
+h8 {
+    padding-left: 50px;
+}
